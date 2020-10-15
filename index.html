@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star-Rating</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+        *{
+            font-family: cursive;
+        }
+        .orange{
+            color: orange;
+        }
+        .yellow{
+           color: yellow;
+        }
+    </style>
+</head>
+<body style="background-color: #d2dae2;">
+<div class="clearfix">     
+<div class="container my-5 rounded-lg shadow-lg border-5 bg-dark">
+        <div class="text-danger display-3 font-weight-bold text-center">
+            STAR RATING 
+        </div>
+        <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div id="Star_rating">
+                    <img src="https://picsum.photos/500/350/?random" alt="picture" class="img-fluid rounded-lg img-thumbnail mx-auto d-block my-5">
+                </div>
+            </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">   
+                    <div class="py-5 ">
+                    <div class="display-6 text-center text-success font-weight-bolder py-5"> RATE THIS IMAGE</div>
+                        <ul class="list-inline text-center p-3 display-4 text-light">
+                            <li class="list-inline-item fa fa-star  stars"></li>
+                            <li class="list-inline-item fa fa-star stars"></li>
+                            <li class="list-inline-item fa fa-star stars"></li>
+                            <li class="list-inline-item fa fa-star stars"></li>
+                            <li class="list-inline-item fa fa-star stars"></li>
+                        </ul>
+                        <div class="row py-5">
+                            <div class="col-xxl-6 col-xl-6 col-lg-5 col-md-4 col-sm-12 col-xs-12 mb-5">
+                                
+                                    <div class="text-light bg-info border-lg shadow-lg py-2 text-center d-none  font-weight-bold rounded-lg" id="result" style="font-size: 1.5em;"></div>
+                                
+                            </div>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mb-5">
+                                <button class="btn btn-danger btn-lg font-weight-bold" role="button">NEXT</button>     
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>    
+</body>
+<script src="script.js"></script>
+</html>
