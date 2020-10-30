@@ -1,6 +1,6 @@
 const star = document.querySelectorAll('.stars');
 const result = document.getElementById('result');
-const btn = document.querySelector('.btn');
+const btn = document.getElementById('btn_next');
 
 btn.addEventListener('click', function(){
   window.location.reload();
